@@ -29,48 +29,15 @@
  * including Cypress's product in a High Risk Product, the manufacturer
  * of such system or application assumes all risk of such use and in doing
  * so agrees to indemnify Cypress against all liability.
+ */
+
+/**
+* @file cy_chip_constant.h
+* @brief Chip specific constants
 */
 
-#pragma once
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-#include "whd_debug.h"
-
-#ifndef LIBS_WCM_INCLUDE_CY_WCM_DEBUG_H_
-#define LIBS_WCM_INCLUDE_CY_WCM_DEBUG_H_
-
-#ifdef WCM_ENABLE_PRINT_INFO
-#define CY_WCM_INFO( X )         printf X
-#else
-#define CY_WCM_INFO( X )
-#endif
-
-#ifdef WCM_ENABLE_PRINT_DEBUG
-#define CY_WCM_DEBUG( X )        printf X
-#else
-#define CY_WCM_DEBUG( X )
-#endif
-#define CY_WCM_ERROR( X )        printf X
-#ifdef WPS_ENABLE_PRINT_INFO
-#define CY_WPS_INFO(args)        printf args
-#else
-#define CY_WPS_INFO(args)
-#endif
-
-#define CY_WPS_ERROR(args)       printf args
-#define cy_wps_assert(error_string, assertion) do { if (!(assertion) ){ WHD_TRIGGER_BREAKPOINT(); } } while (0)
-#ifdef WPS_ENABLE_PRINT_DEBUG
-#define CY_WPS_DEBUG(args)       printf args
-#else
-#define CY_WPS_DEBUG(args)
-#endif
-
-
-#endif /* LIBS_WCM_INCLUDE_CY_WCM_DEBUG_H_ */
-
-#ifdef __cplusplus
-} /* extern C */
-#endif
+#define WL_CHANSPEC_BAND_MASK           (0xc000)
+#define WL_CHANSPEC_BW_MASK             (0x3800)
+#define WL_CHANSPEC_BW_10               (0x0800)
+#define WL_CHANSPEC_BW_20               (0x1000)
+#define WL_CHANSPEC_BW_40               (0x1800)
