@@ -14,8 +14,7 @@ var group__group__wcm__structures =
       [ "ip", "structcy__wcm__ip__address__t.html#ac5cf849d1ad2018fa370b60e13b0024c", null ]
     ] ],
     [ "cy_wcm_event_data_t", "unioncy__wcm__event__data__t.html", [
-      [ "ip_addr", "unioncy__wcm__event__data__t.html#a9c8f9a98e351394d704d1796328ae466", null ],
-      [ "sta_mac", "unioncy__wcm__event__data__t.html#aa2f4d769a35b7859bf0649d29b5f46a4", null ]
+      [ "ip_addr", "unioncy__wcm__event__data__t.html#a9c8f9a98e351394d704d1796328ae466", null ]
     ] ],
     [ "cy_wcm_ap_credentials_t", "structcy__wcm__ap__credentials__t.html", [
       [ "SSID", "structcy__wcm__ap__credentials__t.html#aefb4693ca1fa808349032561a2e4b3bc", null ],
@@ -73,35 +72,5 @@ var group__group__wcm__structures =
       [ "ssid", "structcy__wcm__wps__credential__t.html#a3073e0f51c0149524f08f060725e9214", null ],
       [ "security", "structcy__wcm__wps__credential__t.html#a8274f6ea76c0d1df464038bf3a95a1c7", null ],
       [ "passphrase", "structcy__wcm__wps__credential__t.html#a050204a4875f55a337aae327c9d09e7e", null ]
-    ] ],
-    [ "cy_wcm_associated_ap_info_t", "structcy__wcm__associated__ap__info__t.html", [
-      [ "SSID", "structcy__wcm__associated__ap__info__t.html#a06331c62076e5bffb4bb152e10392c08", null ],
-      [ "BSSID", "structcy__wcm__associated__ap__info__t.html#ae6bea8ffe1b1fd74f0715601806b93cf", null ],
-      [ "security", "structcy__wcm__associated__ap__info__t.html#a4b47f1136ce398758b642a9497df4ac2", null ],
-      [ "channel_width", "structcy__wcm__associated__ap__info__t.html#a7c1cb78975c5725a09dd892fea008c83", null ],
-      [ "signal_strength", "structcy__wcm__associated__ap__info__t.html#a5509aacd600eed0acaa2233884326ba9", null ],
-      [ "channel", "structcy__wcm__associated__ap__info__t.html#ae9076adfc8363be7e62a43c3f21b8220", null ]
-    ] ],
-    [ "cy_wcm_wlan_statistics_t", "structcy__wcm__wlan__statistics__t.html", [
-      [ "rx_bytes", "structcy__wcm__wlan__statistics__t.html#a5d2bbf3841011afecbcb5d92d8a65815", null ],
-      [ "tx_bytes", "structcy__wcm__wlan__statistics__t.html#a98e6c33c50f4666a908f9d712f5c0a53", null ],
-      [ "rx_packets", "structcy__wcm__wlan__statistics__t.html#a91084eaf5e8cf3d57521af0b518f7e34", null ],
-      [ "tx_packets", "structcy__wcm__wlan__statistics__t.html#a3a8559869256dac2d7ad1011133eebd8", null ],
-      [ "tx_retries", "structcy__wcm__wlan__statistics__t.html#ace1911e7d5a9d48df6cc163f623dcbef", null ],
-      [ "tx_failed", "structcy__wcm__wlan__statistics__t.html#aefb719dce691a8f7e4742be439c19424", null ],
-      [ "tx_bitrate", "structcy__wcm__wlan__statistics__t.html#acf071fd3115d3483a5fd5a1520e9868d", null ]
-    ] ],
-    [ "cy_wcm_custom_ie_info_t", "structcy__wcm__custom__ie__info__t.html", [
-      [ "oui", "structcy__wcm__custom__ie__info__t.html#a84e872b95d62994768cbb72a17c07692", null ],
-      [ "subtype", "structcy__wcm__custom__ie__info__t.html#ad5be5ea213d5b9219aafe3770c85a9a0", null ],
-      [ "data", "structcy__wcm__custom__ie__info__t.html#afd53c84c770bcba488cc1ff7567f8135", null ],
-      [ "length", "structcy__wcm__custom__ie__info__t.html#aabade00f0187717a90f7837ad2d164e8", null ],
-      [ "ie_packet_mask", "structcy__wcm__custom__ie__info__t.html#a95c37d239bc173d922186c37a55cfd2e", null ]
-    ] ],
-    [ "cy_wcm_ap_config_t", "structcy__wcm__ap__config__t.html", [
-      [ "ap_credentials", "structcy__wcm__ap__config__t.html#a41b9a70a96b5567416a37661a84b3e7c", null ],
-      [ "channel", "structcy__wcm__ap__config__t.html#a43adeebc56159fdac2d1e0a19334fb6f", null ],
-      [ "ip_settings", "structcy__wcm__ap__config__t.html#a4d26be457ca32e36d8162c3eb347491b", null ],
-      [ "ie_info", "structcy__wcm__ap__config__t.html#a882c472c4e6c64d0b55fe61350d8043a", null ]
     ] ]
 ];
